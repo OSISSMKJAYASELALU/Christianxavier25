@@ -147,13 +147,13 @@
                     <!-- Fitur Save Data -->
                     <div class="col-md-6 text-center mb-3">
                         <label for="deskripsi-file" class="form-label">Deskripsi permintaan :</label>
-                        <textarea input type="text" cols="30" rows="7" class="form-control" id="deskripsi-file" name="deskripsi_file" placeholder="Contoh : 
-    - Mulai dengan banyak sumber daya
-    - Semua jenderal memiliki 600 pasukan elit            
-    - Mulai dengan 20.000 prajurit samurai elit
-    - Wilayah kerajaan Jepang
-    - dan lain-lain
-                        " required></textarea>
+                        <textarea
+                         id="deskripsi-file"
+                         name="deskripsi_file"
+                         class="form-control"
+                         placeholder="Contoh:&#10;- Mulai dengan banyak sumber daya&#10;- Semua jenderal memiliki 600 pasukan elit&#10;- Mulai dengan 20.000 prajurit samurai elit&#10;- Wilayah kerajaan Jepang&#10;- dan lain-lain"
+                         required cols="30" rows="7" 
+                        ></textarea>
                     </div>
                     
                     <!-- Tanggapan User -->
@@ -174,16 +174,16 @@
                         <!-- Kotak pembungkus -->
                         <div class="outer-box d-flex justify-content-center gap-3 my-3">
                             <!-- Kotak "YA, Sudah" -->
-                            <div class="card text-center" style="width: 10rem;">
+                            <div class="card text-center" style="width: 7rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">YA, Sudah</h5>
+                                    <h6 class="card-title">YA, Sudah</h6>
                                     <input type="radio" id="subscribe-yes" name="subscribe_status" value="yes" required>
                                 </div>
                             </div>
                             <!-- Kotak "TIDAK, Belum" -->
-                            <div class="card text-center" style="width: 10rem;">
+                            <div class="card text-center" style="width: 7rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">TIDAK, Belum</h5>
+                                    <h6 class="card-title">TIDAK, Belum</h6>
                                     <input type="radio" id="subscribe-no" name="subscribe_status" value="no" required>
                                 </div>
                             </div>
